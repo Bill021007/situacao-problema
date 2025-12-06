@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Situação-Problema de Anime</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff0f5;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: #ffffffc9;
+            padding: 25px;
+            border-radius: 12px;
+            width: 70%;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #ff66b2;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .box {
+            background: #ffe6f0;
+            padding: 15px;
+            border-left: 5px solid #ff3399;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .final {
+            background: #d1ffe0;
+            padding: 15px;
+            border-left: 5px solid #33cc66;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .anime-img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Situação-Problema de Anime</h1>
+
+    <img class="anime-img" src="https://upload.wikimedia.org/wikipedia/en/0/05/Hello_Kitty_character_portrait.png" alt="Anime">
+
+    <p>
+        Sakura quer comprar mangás de um anime popular. Cada volume custa <strong>R$ 25,00</strong>.  
+        Ela deseja comprar todos os <strong>12 volumes</strong> da série para completar a coleção.  
+        Quantos mangás ela vai comprar e quanto gastará no total?
+    </p>
+
+    <h2>Resolução</h2>
+
+    <div class="box">
+        <p>
+            <strong>1) Quantidade de mangás:</strong><br>
+            Sakura quer todos os 12 volumes.<br>
+            Logo, ela vai comprar <strong>12 mangás</strong>.
+        </p>
+    </div>
+
+    <div class="box">
+        <p>
+            <strong>2) Cálculo do valor total:</strong><br>
+            Cada mangá custa R$ 25,00.<br>
+            Total = 12 × 25 = <strong>R$ 300,00</strong>.
+        </p>
+    </div>
+
+    <div class="final">
+        ✔ Sakura vai comprar <strong>12 mangás</strong>.<br>
+        ✔ Ela gastará <strong>R$ 300,00</strong> no total.
+    </div>
+</div>
+
+</body>
+</html>
